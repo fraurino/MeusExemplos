@@ -468,12 +468,20 @@ object uTest: TuTest
   end
   object CheckBox1: TCheckBox
     Left = 272
-    Top = 264
+    Top = 240
     Width = 141
     Height = 17
     Cursor = crHandPoint
     Caption = 'Active TTask/TThread '
     TabOrder = 2
+  end
+  object CheckBox2: TCheckBox
+    Left = 272
+    Top = 263
+    Width = 97
+    Height = 17
+    Caption = 'Time in Task'
+    TabOrder = 3
   end
   object ClientDataSet1: TClientDataSet
     Aggregates = <>
